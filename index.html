@@ -1,7 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <header>
+    <h1><a href="#">Your Name</a></h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="images/portrait.jpg" alt="Your Portrait"> <p>Write a detailed description about yourself, skills, and experiences.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-container"> <article class="project-card">
+          <h3>Project 1 Title</h3>
+          <img src="images/project1.jpg" alt="Project 1 screenshot">
+          <p>A concise description of Project 1.</p>
+          <ul class="project-details"> <li>Technology: HTML, CSS, JavaScript</li>
+            <li>Role: Lead Developer</li>
+            <li><a href="#">View Project Details</a></li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          </article>
+
+        </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Provide your contact information: email, social media links, contact form (optional).</p>
+      <form action="#"> <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Your Name</p>
+    <ul class="social-media">
+      <li><a href="#"><i class="fab fa-github"></i></a></li>
+      <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit-code.js" crossorigin="anonymous"></script>
 </body>
 </html>
