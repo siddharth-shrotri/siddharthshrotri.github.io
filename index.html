@@ -81,5 +81,16 @@
   </div>
 
   </body>
+<script>
+  const projectList = document.querySelectorAll('.project li');
+
+projectList.forEach(project => {
+  project.addEventListener('click', () => {
+    // Redirect user to project page based on project details
+    window.location.href = 'project-1.html'; // Replace with actual URL
+  });
+});
+
+</script>
 
 </html>
